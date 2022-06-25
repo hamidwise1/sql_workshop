@@ -1,0 +1,28 @@
+-- text key types
+1) CHAR(SIZE):
+ CHAR is fixed length
+ size:number of chars (maximum)
+2) VARCHAR(SIZE) (this is more used)
+ the length is flexible and not fixed
+3) TEXT, LONGTEXT, MEDIUMTEXT (for long length of text)
+ we don't use size here
+ with these we can store super long text
+4) ENUM which text values are allowed (list of acceptable words)
+
+-- number key types
+1) int (small,...)
+ these are whole numbers with no decimal points
+
+2) decimal 
+ exact decimal number
+
+3)float 
+ not exact decimal number (cumputers have issues in saving decimal numbers)
+
+-- data key types
+1) date :with out hours and minutes and ...
+2) dateTime, timeStamp :with hours and minutes and second ...
+
+-- other key types (not so often)
+1) boolean 
+2) json
